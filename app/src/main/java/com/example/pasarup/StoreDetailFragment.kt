@@ -75,10 +75,10 @@ class StoreDetailFragment : Fragment() {
         // DATA SAYURAN UNTUK DEMO UTS
         // Menggunakan icon berbeda-beda agar tidak terlihat sama semua (Tomat semua)
         val products = listOf(
-            CartItem("v1", "Sawi Hijau", 5000, R.drawable.ic_pasarup, 1, nama),
-            CartItem("v2", "Wortel Lokal", 8000, R.drawable.ic_home, 1, nama),
-            CartItem("v3", "Tomat Merah", 12000, R.drawable.ic_search, 1, nama),
-            CartItem("v4", "Bayam Segar", 4000, R.drawable.ic_pesanan, 1, nama)
+            CartItem("v1", "Sawi Hijau", 5000, R.drawable.ic_sawi, 1, nama),
+            CartItem("v2", "Wortel Lokal", 8000, R.drawable.ic_wortel, 1, nama),
+            CartItem("v3", "Tomat Merah", 12000, R.drawable.ic_tomat, 1, nama),
+            CartItem("v4", "Bayam Segar", 4000, R.drawable.ic_bayam1, 1, nama)
         )
 
         // Gunakan GridProductAdapter dengan data 'products' yang sudah dibuat di atas

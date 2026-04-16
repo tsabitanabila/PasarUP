@@ -85,9 +85,9 @@ class search : Fragment() {
     // Data simulasi
     private fun isiDataDummy() {
         listDataAsli.clear()
-        listDataAsli.add(Produk("Wortel Segar", "Rp 5.000", "Toko Bu Siti", R.drawable.ic_pasarup))
-        listDataAsli.add(Produk("Bayam Hijau", "Rp 3.000", "Sayur Mayur Jaya", R.drawable.ic_pasarup))
-        listDataAsli.add(Produk("Apel Merah", "Rp 15.000", "Buah Segar Abadi", R.drawable.ic_pasarup))
-        listDataAsli.add(Produk("Tomat Merah", "Rp 8.000", "Toko Bu Siti", R.drawable.ic_pasarup))
+        listDataAsli.add(Produk("Wortel Segar", "Rp 5.000", "Toko Bu Siti", R.drawable.ic_wortel))
+        listDataAsli.add(Produk("Bayam Hijau", "Rp 3.000", "Sayur Mayur Jaya", R.drawable.ic_bayam1))
+        listDataAsli.add(Produk("Apel Merah", "Rp 15.000", "Buah Segar Abadi", R.drawable.ic_apel))
+        listDataAsli.add(Produk("Tomat Merah", "Rp 8.000", "Toko Bu Siti", R.drawable.ic_tomat))
     }
 }
