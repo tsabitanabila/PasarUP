@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="8dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp">
+            <ImageView
+                android:id="@+id/ivProdukGrid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_pasarup"
+                tools:src="@tools:sample/avatars"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvNamaProdukGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end"
+            tools:text="sawi" /> <!-- tools:text hanya muncul di desain -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:id="@+id/tvHargaProdukGrid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#B71029"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="Rp 15.000" /> <!-- tools:text hanya muncul di desain -->
+
+            <ImageButton
+                android:id="@+id/btnAddToCartGrid"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/circle_outline"
+                android:backgroundTint="#FFFFFF"
+                android:src="@android:drawable/ic_input_add"
+                app:tint="#B71029"
+                android:padding="4dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="Tambah barang" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

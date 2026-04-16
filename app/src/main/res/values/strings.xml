@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">PasarUp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_title">PasarUp</string>
+    <string name="splash_tagline">Belanja Cepat dari UMKM Sekitar</string>
+    <string name="splash_bottom_text">Support UMKM Lokal Indonesia</string>
+    <string name="desc_app_logo">Logo Aplikasi PasarUp</string>
+
+    <!-- Login Screen -->
+    <string name="login_welcome">Selamat Datang</string>
+    <string name="login_subtitle">Masuk ke akun Anda untuk belanja kebutuhan harian</string>
+    <string name="label_email">Email</string>
+    <string name="hint_email">Masukkan Email</string>
+    <string name="label_password">Password</string>
+    <string name="hint_password">Masukkan Password</string>
+    <string name="btn_login">MASUK</string>
+    <string name="login_register_link">Belum punya akun? Daftar</string>
+
+    <!-- Register Screen -->
+    <string name="register_subtitle">Buat akun untuk mulai berbelanja</string>
+    <string name="label_full_name">Nama Lengkap</string>
+    <string name="hint_full_name">Masukkan Nama</string>
+    <string name="label_phone_number">Nomor Telepon</string>
+    <string name="hint_phone_number">08xxxxxxxxxx</string>
+    <string name="label_confirm_password">Konfirmasi Password</string>
+    <string name="hint_confirm_password">Ulangi Password</string>
+    <string name="checkbox_terms">Saya setuju dengan syarat &amp; ketentuan</string>
+    <string name="btn_register_now">DAFTAR SEKARANG</string>
+    <string name="register_login_link">Sudah punya akun? Masuk</string>
+
+    <!-- Beranda Screen -->
+    <string name="home_dikirim_ke">📍 Dikirim ke</string>
+    <string name="home_dummy_alamat">Jl. Sudirman No.42</string>
+    <string name="home_flash_sale">FLASH SALE</string>
+    <string name="home_banner_title">Belanja Cepat\nDari UMKM Lokal</string>
+    <string name="home_btn_belanja">Cek Sekarang</string>
+    <string name="home_kategori_pilihan">Kategori Pilihan</string>
+    <string name="home_cat_sayur">Sayur</string>
+    <string name="home_cat_makanan">Makanan</string>
+    <string name="home_cat_gadget">Gadget</string>
+    <string name="home_cat_jasa">Jasa</string>
+    <string name="home_toko_terdekat">Toko Terdekat</string>
+    <string name="home_toko_bu_siti">Warung Bu Siti</string>
+    <string name="home_toko_rating">⭐ 4.9 • 0.5 km</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_order">Order</string>
+    <string name="nav_profile">Profile</string>
+    <string name="desc_bagikan">Bagikan</string>
+    <string name="desc_logo_toko">Logo Toko</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_picture">Foto Profil</string>
+    <string name="edit_profile">Edit Profil</string>
+    <string name="menu_orders">Pesanan Saya</string>
+    <string name="menu_wishlist">Wishlist</string>
+    <string name="menu_vouchers">Voucher Saya</string>
+    <string name="menu_wallet">Dompet</string>
+    <string name="menu_reviews">Ulasan Saya</string>
+    <string name="menu_help">Pusat Bantuan</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="menu_address">Daftar Alamat</string>
+    <string name="order_product_image">Gambar Produk</string>
+
+    <!-- Dummy Data & Labels -->
+    <string name="dummy_name">Budi Santoso</string>
+    <string name="dummy_member_since">Member sejak 2023</string>
+    <string name="dummy_coins">2.450 Koin</string>
+    <string name="dummy_vouchers">3 Voucher</string>
+    <string name="menu_header_main">Menu Utama</string>
+    <string name="header_recent_orders">Pesanan Terbaru</string>
+    <string name="action_see_all">Lihat Semua</string>
+    <string name="dummy_product_1">Sayur Segar Paket Hemat</string>
+    <string name="dummy_date_1">12 Apr 2026</string>
+    <string name="status_packed">Dikemas</string>
+    <string name="dummy_product_2">Mie Instan Goreng (1 Dus)</string>
+    <string name="dummy_date_2">10 Apr 2026</string>
+    <string name="status_completed">Selesai</string>
+    <string name="icon_coin">🪙</string>
+    <string name="icon_voucher">🎫</string>
+    <string name="search_order">Cari Pesanan</string>
+</resources>
